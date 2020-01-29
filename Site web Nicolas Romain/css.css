@@ -1,0 +1,430 @@
+body{
+	background-color:  #f5c9c6 ; 
+}
+
+header{
+	background-image: url("ima/Copie (2) de drapeau_francais_degrade_tricolore_bleu-blanc-rouge-e1447617612949.jpg");
+	border-radius:20px;
+	background-position: ;
+	background-repeat:repeat;
+	
+}
+
+
+
+
+
+
+.navigation, .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+	float: left;
+}
+.navigation li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+.navigation a {
+    display: block;
+    width: 471.7px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	color:black;
+    background:  #ff6133;
+	
+	
+}
+.navigation ul {
+    left:0 ;
+    position:absolute;
+    }
+.navigation li:hover > ul {
+    left: 0;
+}
+.navigation li li:hover > ul {
+    left: 190px;
+    top: 0;
+}
+#acc:hover {
+    color: pink;
+    background-image: url("ima/fond-degrade-bleu-rouge_3070-39.jpg");
+}
+#accc:hover {
+    color: pink;
+    background-image: url("ima/fond-degrade-bleu-rouge_3070-39.jpg");
+}
+#acccc:hover {
+    color: pink;
+    background-image: url("ima/fond-degrade-bleu-rouge_3070-39.jpg");
+}
+#ac:hover {
+    color: pink;
+    background-image: url("ima/fond-degrade-bleu-rouge_3070-39.jpg");
+}
+
+
+
+p{
+	font-size:22px;
+}
+h1, p{
+	text-align: center;
+}
+
+
+
+
+
+#Fortnite{
+	float:left;
+	content:url("ima/Fortnite_chapter2_FR_11BR_KeyArt_Social-1920x1080-d55bbbf68ee2f6d43d4f2abe50c06138d9ddc56e.jpg");
+	width:480px;
+	height:270px;
+	border-radius:50%;	
+}
+#League_of_Legends{
+	content:url("ima/1a.jpg");
+	width:480px;
+	height:270px;
+	border-radius:50%;	
+	margin: -250px 0px 0px 700px;
+}	
+#Counter-Strike{
+	content:url("ima/csgo.jpg");
+	width:480px;
+	height:240px;
+	border-radius:50%;	
+	margin: 0px 0px 0px 1400px;
+}	
+
+#classement1, #classement2{
+	display:inline;
+}
+
+
+
+
+
+
+a, #p0{
+	font-size: 30px;
+}
+
+a#cRetour{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.25);
+  position:fixed;
+  right:20px;
+  opacity:1;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+  bottom:20px;
+  opacity:1;
+}
+
+
+
+
+
+
+
+#classement, #classement ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+	float: left;
+	
+	
+}
+#classement li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+	
+}
+#classement a {
+    display: block;
+    width: 471.7px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	color:black;
+    background:  #f5c9c6;
+	text-decoration:none;
+}
+#classement ul {
+    left: 2em;
+    position:absolute;
+	
+}
+#classement li:hover > ul {
+    left: 0;
+	
+}
+#classement li li:hover > ul {
+    left: 190px;
+    top: 0;
+	
+}
+
+.solo{
+   text-align:center;
+
+}
+
+
+
+img {
+  vertical-align:middle;
+  border-radius:20px;
+}
+
+
+#logo, #logo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+	float: left;
+}
+#logo li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+#logo a {
+    display: block;
+    width: 471.7px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	color:black;
+    
+}
+#logo ul {
+    left: 2em;
+    position:absolute;
+    }
+#logo li:hover > ul {
+    left: 0
+}
+#logo li li:hover > ul {
+    left: 190px;
+    top: 0;
+}
+#site1{
+	border-radius: 20px;
+}
+
+#dexerto{
+	text-align: rigth;
+}
+
+
+
+
+
+
+#acc{
+	border-radius:20px 0px 0px 20px;
+	background-image: url("ima/rb.jpg");
+	text-decoration: none;
+}
+#accc{
+	
+    background-image: url("ima/bl.jpg");
+	text-decoration: none;
+}
+#acccc{
+	
+	background-image: url("ima/Copiedebl.jpg");
+	text-decoration: none;
+}
+#ac{
+	
+	background-image: url("ima/rou.jpg");
+	border-radius:0px 20px 20px 0px;
+	text-decoration: none;
+}
+
+
+
+
+
+p, h1, h2, h3.sansserif {
+  font-family: Arial, sans-serif;
+	
+}
+
+
+
+
+#m{
+	margin:0px 0px 0px 500px;
+}
+#n{
+	margin:0px 0px 0px 1200px;
+}
+
+
+
+
+
+
+.bouton
+{
+    color:#0000ff;
+    font-size:24px;
+    cursor:pointer;
+}
+.bouton:hover
+{
+    text-decoration:none;
+}
+.règles-du-jeux
+{
+    border:1px solid #333333;
+    background:#eeeeee;
+    padding:10px;
+    color:#333333;
+}
+.règles-du-jeux:hover
+{
+    border:1px solid #000000;
+    background:#cccccc;
+    color:#000000;
+}
+
+#classement1{
+	margin:0px 0px 0px 175px ;
+}
+
+#texte1{
+	position: absolute;
+	top: 1300px;
+	left: 950px; 
+	text-align: left;
+}
+
+#classement2{
+	margin:80px 0px 0px 950px ;
+	
+}
+
+#texte2{
+	position: absolute;
+	top: 2150px;
+	left: 210px; 
+	text-align: left;
+}
+
+
+
+#effet img {
+	margin-left: 200px;
+	transition: .5s ease-in-out;
+}
+#effet:hover img{
+	margin-left: 10px;
+}
+#effet:hover img {
+  transform: rotate(-360deg);
+}
+
+#effet2 img {
+   transition: 0.5s ease-in-out;
+   
+}
+#effet2:hover img {
+   transform: rotate(135deg);
+  
+}
+
+
+
+.logo img {
+	filter: blur(4px);
+	transition: .3s ease-in-out;
+}
+.logo:hover img {
+	filter: blur(0);
+}
+
+#http{
+	text-decoration:none;
+	color:black;
+}
+#http:hover{
+	color:#748520;
+	
+	
+}
+
+.logo img {
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.logo:hover img {
+	transform: scale(1.2);
+	
+}
+
+#logo1 img {
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+#logo1:hover img {
+	transform: scale(1.2);
+	filter: invert(100%)
+}
+
+
+
+
+
+#classement1  {
+	filter: grayscale(100%);
+	transition: .3s ease-in-out;
+	
+}
+#classement1:hover  {
+	filter: grayscale(0);
+	
+}
+#classement2  {
+	filter: grayscale(0);
+	transition: .3s ease-in-out;
+	
+}
+
+#classement2:hover  {
+	filter: grayscale(40%);
+	
+}
+
+
