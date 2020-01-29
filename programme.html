@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Compléter le titre de la page -->
+  <title>Spécialités</title>
+  <!-- ***************************** -->
+
+  <!-- Faire l'inclusion du css et du script js -->
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src="javascript.js"> </script>
+
+  <!-- ***************************** -->
+</head>
+<body>
+  <header>
+    <h1>Mes spécialités en terminale</h1>
+  </header>
+
+  <section id="formulary">
+
+  <!-- Affecter au formulaire l'identité "terminale" -->
+  <form id="terminale" action="#" method="get">  <br/>
+  <!-- ***************************** -->
+      <!-- Affecter à l'article l'identité "identity" et la classe "choix" -->
+      <article id="identity">
+      <!-- ***************************** -->
+        <!-- Ecrire le code du formulaire de saisie de l'Identité
+            * Titre de niveau 2 : "Identité :"
+            * paragraphe : "Indiquez vos nom et prenom"
+            * paragraphe : "Prénom"
+            * champ de saisie de texte d’une ligne avec comme nom "prenom"
+            * paragraphe : "Nom"
+            * champ de saisie de texte d’une ligne avec comme nom "nom" -->
+        <!-- ***************************** -->
+		   <h2>identité :</h2>
+		   <p>Indiquez vos nom et prenom</p>
+		   <p>Prénom</p> 
+		   <p><input type="text" id="name" name="prenom"/></p>
+		   <p>Nom</p>
+		   <p><input type="text" id="name" name="nom"/></p>
+      </article>
+
+      <!-- Affecter à l'article l'identité "classe" et la classe "choix" -->
+      <article id="classe" class="choix">
+      <!-- ***************************** -->
+        <!-- Ecrire le code du formulaire de choix de la classe
+            * Titre de niveau 2 : "Votre classe :"
+			* paragraphe : "En quelle classe êtes vous ?"
+			* paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G2"
+			* paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G3"
+			* paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G5" -->
+			<!-- ***************************** -->
+		  	<h2>Votre classe :</h2>
+            <p>En quelle classe êtes vous ?</p>
+           	<div>
+		     <br><input type="radio" id="1G2" name="classe" value="1G2"> <label for="1G2">1G2</label> </br> 
+			</div>
+			<div>
+           	 <br><input type="radio" id="1G3" name="classe" value="1G3"> <label for="1G3">1G3</label></br>
+			</div>
+			<div>
+           	 <br><input type="radio" id="1G5" name="classe" value="1G5"> <label for="1G5">1G5</label></br>
+			</div>
+     </article>
+
+     <!-- Affecter à l'article l'identité "speciality" et la classe "choix" -->
+     <article id="speciality" class="choix">
+     <!-- ***************************** -->
+       <!-- Ecrire le code du formulaire de choix des spécialités
+           * Titre de niveau 2 : "Les spécialités en terminale :"
+           * paragraphe : "Choisissez vos deux spécialités"
+           * paragraphe : case à cocher avec comme nom "ARTS_PLASTIQUES" et pour valeur "ARTS PLASTIQUES"
+           * paragraphe : case à cocher avec comme nom "LITT_ANGLAIS" et pour valeur "LITT. ANGLAIS"
+           * paragraphe : case à cocher avec comme nom "LITT_ESPAGNOL" et pour valeur "LITT. ESPAGNOL"
+           * paragraphe : case à cocher avec comme nom "MATHEMATIQUES" et pour valeur "MATHEMATIQUES"
+           * paragraphe : case à cocher avec comme nom "NUMERIQUE_SC_INFORM" et pour valeur "NUMERIQUE SC.INFORM"
+           * paragraphe : case à cocher avec comme nom "PHYSIQUE_CHIMIE" et pour valeur "PHYSIQUE-CHIMIE"
+           * paragraphe : case à cocher avec comme nom "SC_ECONO_SOCIALES" et pour valeur "SC. ECONO.& SOCIALES" -->
+       <!-- ***************************** -->
+	       <h2>Les spécialités en terminale :   </h2>
+		   <p>Choisissez vos deux spécialités</p>
+		   <div>
+		    <input type="checkbox" id="ARTS PLASTIQUES" name="ARTS_PLASTIQUES" value="ARTS PLASTIQUES"> <label for="ARTS_PLASTIQUES">ARTS PLASTIQUES</label>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="LITT_ANGLAIS" name="LITT_ANGLAIS" value="LITT.ANGLAIS"> <label for="LITT_ANGLAIS">LITT.ANGLAIS</label></br>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="LITT_ESPAGNOL" name="LITT_ESPAGNOL" value="LITT.ESPAGNOL"> <label for="LITT_ESPAGNOL">LITT.ESPAGNOL</label></br>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="MATHEMATIQUES" name="MATHEMATIQUES" value="MATHEMATIQUES"> <label for="MATHEMATIQUES">MATHEMATIQUES</label></br>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="NUMERIQUE_SC_INFORM" name="NUMERIQUE_SC_INFORM" value="NUMERIQUE SC.INFORM"> <label for="NUMERIQUE_SC_INFORM">NUMERIQUE SC.INFORM</label></br>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="PHYSIQUE_CHIMIE" name="PHYSIQUE_CHIMIE" value="PHYSIQUE-CHIMIE"> <label for="PHYSIQUE_CHIMIE">PHYSIQUE-CHIMIE</label></br>
+		   </div>
+		   <div>
+		    <br><input type="checkbox" id="SC_ECONO_SOCIALES" name="SC_ECONO_SOCIALES" value="SC. ECONO.& SOCIALES"> <label for="PSC_ECONO_SOCIALES">SC. ECONO.& SOCIALES</label></br>
+		   </div>
+		 
+     </article>
+
+    <article class="resultat">
+        <input class="button" type="submit" value="Voir le résultat!" />
+        <h1 id="resultat"></h1>
+    </article>
+
+  </form>
+</section>
+</body>
+</html>
+
